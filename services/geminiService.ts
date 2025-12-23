@@ -2,7 +2,7 @@ import { GoogleGenAI, Chat, GenerateContentResponse } from "@google/genai";
 
 // Initialize the Gemini Client
 // IMPORTANT: process.env.API_KEY is injected by the environment.
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: "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" });
 
 const VAZHEIM_LORE_SYSTEM_INSTRUCTION = `
 You are the Ancient Oracle of Vazheim. 
