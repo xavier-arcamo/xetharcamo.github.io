@@ -4,77 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vazheim - The Eternal Chronicles</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              serif: ['Cinzel', 'serif'],
-              sans: ['Lato', 'sans-serif'],
-            },
-            colors: {
-              vazheim: {
-                dark: '#0a0a0c',
-                gold: '#cca43b',
-                goldDim: '#8a702a',
-                crimson: '#5e1b1b',
-                mystic: '#2a2a40',
-              }
-            },
-            backgroundImage: {
-              'rune-pattern': "url('https://www.transparenttextures.com/patterns/black-scales.png')",
-            }
-          }
-        }
-      }
-    </script>
-    <style>
-      body {
-        background-color: #050505;
-        color: #e0e0e0;
-      }
-      /* Custom Scrollbar */
-      ::-webkit-scrollbar {
-        width: 8px;
-        height: 8px; /* Height for horizontal scrollbar */
-      }
-      ::-webkit-scrollbar-track {
-        background: #1a1a1a; 
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #cca43b; 
-        border-radius: 4px;
-        border: 1px solid #0a0a0c;
-      }
-      ::-webkit-scrollbar-thumb:hover {
-        background: #e5c056; 
-      }
-      ::-webkit-scrollbar-corner {
-        background: #1a1a1a;
-      }
-    </style>
-  <script type="importmap">
-{
-  "imports": {
-    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "recharts": "https://aistudiocdn.com/recharts@^3.5.1",
-    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24",
-    "d3": "https://aistudiocdn.com/d3@^7.9.0"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
-</head>
+    <meta name="description" content="An immersive RPG-style landing page for the fantasy world of Vazheim.">
+  </head>
   <body>
     <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
-</body>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
